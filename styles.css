@@ -1,3 +1,4 @@
+
 .nav{
     background-color: #1F2937;
     display: flex;
@@ -6,6 +7,7 @@
     color: #F9FAF8;
     font-size: 24px;
     padding: 0px 150px;
+    flex-wrap: wrap;
 }
 
 .mainTitle{
@@ -33,10 +35,11 @@ ul{
     gap: 30px;
     list-style-type: none;
     font-size: 18px;
+    flex-wrap: wrap;
 
 }
 
-button{
+.pushButton{
     border-radius: 10%;
     background-color: #3882F6;
     width:fit-content;
@@ -50,14 +53,98 @@ a{
 }
 
 img{
-    border-radius: 10%;
+    
     width: 40%;
-    flex-shrink: 1;
-    
-    
+    flex-shrink: 1;   
+}
+
+img.roundImg{
+    border-radius: 10%;
+    border: #3882F6 2px solid;
+    width: 100%;
 }
 
 h1{
     font-size: 48px;
     font-weight: extra-bold;
+}
+
+h3{
+    font-size:36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.images{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 25% 0px 25%;
+   
+}
+
+.imagesWithText{
+    display:flex;
+    flex-direction: column;
+}
+
+.info{
+    text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 20%;
+}
+
+.quoteRef{
+    display:flex;
+    justify-content: flex-end;
+    font-style:normal;
+    font-weight: bold;
+    
+}
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 10%;
+    align-items:center ;
+    
+
+}
+
+.actionText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #F9FAF8; 
+    height: 100%;
+    
+
+}
+
+
+.actionButton{
+    border-radius: 10%;
+    border: white 1px solid;
+    background-color: #3882F6;
+    color: white;
+    width:fit-content;
+    padding: 5px;
+    width:fit-content;
+    height: fit-content;
+
+}
+
+.secondary{
+    color:#E5E7EB;
+    font-size: 12px;
 }
