@@ -52,16 +52,13 @@ a{
     text-decoration: none;
 }
 
-img{
-    
-    width: 40%;
+img{   
     flex-shrink: 1;   
 }
 
-img.roundImg{
+#imgTop{
     border-radius: 10%;
-    border: #3882F6 2px solid;
-    width: 100%;
+    max-width: 40%;
 }
 
 h1{
@@ -77,15 +74,20 @@ h3{
 
 .images{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 30px;
-    padding: 30px 25% 0px 25%;
-   
+    padding: 30px 10% 30px 10%;
 }
 
 .imagesWithText{
     display:flex;
     flex-direction: column;
+}
+
+.roundImg{
+    border-radius: 10%;
+    border: #3882F6 2px solid;
+    max-width: 100%;
 }
 
 .info{
@@ -114,7 +116,7 @@ h3{
     display: flex;
     justify-content: space-around;
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 10%;
     align-items:center ;
     
@@ -123,11 +125,9 @@ h3{
 
 .actionText{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     color: #F9FAF8; 
     height: 100%;
-    
+    align-items: center;
 
 }
 
